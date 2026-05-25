@@ -21,7 +21,7 @@ cd simulations && python python/dgng_pub_v2.py
 ### `simulations/wolfram/` — Symbolic Verification
 Wolfram Engine 14.3: symbolic identity (n=3) + numerical sampling (n=4,5, 1000 configs each).
 
-### `simulations/figures/` — 15 publication-quality figures.
+### `simulations/figures/` — 15 figures.
 
 ## Reference
 *Emergence of Stable Cohesive Structures in Sparse Dynamic Networks: A Rigorous Lyapunov-Based Analysis* (2026)
