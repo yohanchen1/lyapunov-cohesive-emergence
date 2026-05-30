@@ -189,11 +189,13 @@ def pub_figure(T, X, W, edges_used, E_hist, ca, eps, alpha, name, topo_label):
         if abs(px_f[j]) > 1e-6:
             pv.append(alpha * w_f[idx] / px_f[j]); av.append(px_f[i])
     if pv:
-        ax.scatter(range(len(av)), av, c=C_RED, s=18, label='$\\phi(x_i)$ actual', zorder=3)
-        ax.scatter(range(len(pv)), pv, c=C_BLUE, s=14, alpha=0.5, marker='x', label='$\\alpha w_{ij}/\\phi(x_j)$ pred')
+        ax.scatter(range(len(pv)), pv, c=C_BLUE, s=30, alpha=0.7, marker='x',
+                   label='Edge prediction', zorder=4, linewidths=1.5)
+        ax.scatter(range(len(av)), av, c=C_RED, s=12, alpha=0.6,
+                   label='Node activation', zorder=3)
         ax.legend(fontsize=9, loc='best')
-    ax.set_title('Self-consistency verification', fontsize=12, fontweight='bold')
-    ax.set_xlabel('Edge index'); ax.grid(alpha=0.10)
+    ax.set_title('Self-consistency: $w_{ij}^* = \\phi_i\\phi_j/\\alpha$', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Edge index'); ax.set_ylabel('Value'); ax.grid(alpha=0.10)
 
     fname = os.path.join(OUT_DIR, f"dgng_pub_{name}.png")
     fig.savefig(fname, dpi=300, facecolor='white')
