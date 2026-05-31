@@ -25,3 +25,6 @@ Wolfram Engine 14.3: symbolic identity (n=3) + numerical sampling (n=4,5, 1000 c
 
 ## Reference
 *Emergence of Stable Cohesive Structures in Sparse Dynamic Networks: A Rigorous Lyapunov-Based Analysis* (2026)
+
+## AI Assistance Note
+The formal verification (Lean 4), Python simulation scripts, and LaTeX formatting in this repository were developed with the assistance of the DeepSeek large language model.
