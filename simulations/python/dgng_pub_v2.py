@@ -184,8 +184,12 @@ def pub_figure(T, X, W, edges_used, E_hist, ca, eps, alpha, name, topo_label):
 
     # (2,1)+(2,2) Self-consistency
     ax = fig.add_subplot(gs[2, 1:])
+    # Randomly sample edges for representative verification (avoid BA bias toward early hubs)
+    rng_sc = np.random.default_rng(42)
+    sc_indices = rng_sc.choice(len(edges_used), min(50, len(edges_used)), replace=False)
     pv, av = [], []
-    for idx, (i, j) in enumerate(edges_used[:min(50, len(edges_used))]):
+    for idx in sc_indices:
+        i, j = edges_used[idx]
         if abs(px_f[j]) > 1e-6:
             pv.append(alpha * w_f[idx] / px_f[j]); av.append(px_f[i])
     if pv:
