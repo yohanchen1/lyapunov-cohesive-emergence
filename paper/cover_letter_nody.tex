@@ -1,0 +1,49 @@
+\documentclass[a4paper,11pt]{letter}
+\usepackage[default]{sourcesanspro}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{a4paper, top=3cm, bottom=3cm, left=2.5cm, right=2.5cm}
+
+\address{
+    \textbf{Yuhang Chen}\\
+    Independent Researcher\\
+    Zhejiang, China\\
+    \href{mailto:yuhang.chen200203@gmail.com}{yuhang.chen200203@gmail.com}
+}
+
+\begin{document}
+
+\begin{letter}{The Editor\\
+\textit{Nonlinear Dynamics}}
+
+\opening{Dear Editor,}
+
+I am submitting my manuscript entitled \textbf{``Emergence of Stable Cohesive Structures in Sparse Dynamic Networks''} for consideration in \textit{Nonlinear Dynamics}.
+
+This paper makes a novel theoretical contribution: we define and rigorously prove the emergence of a new graph-theoretic structure---the $\delta$-cohesive partition---in Hopfield-Hebbian dynamical systems on sparse networks. The work directly fills a gap left by Centorrino, Bullo and Russo (Automatica, 2024), who proved global stability of such systems but did not characterize the structure of the converged state.
+
+The core results are three theorems forming a deductive chain. Theorem~1 constructs an exact Lyapunov function whose derivative decomposes into two independent sums of non-positive squares. Theorem~2 uses LaSalle's invariance principle to prove global convergence to equilibrium for any finite undirected graph. Theorem~3 proves that every equilibrium exhibits a $\delta$-cohesive partition with a sharp, analytically computable weight gap $\delta = 2/\alpha$.
+
+Beyond the core theorems, the paper provides:
+\begin{itemize}
+    \item A \textbf{bifurcation analysis} of the first-order phase transition at a critical learning rate, identifying the saddle-node mechanism responsible for the emergence of cohesive structure;
+    \item Three \textbf{graph-theoretic applications}: $k$-plex dense subgraph formation, 100\% structural balance on the induced signed graph, and spectral correspondence with the graph Laplacian Fiedler vector;
+    \item A \textbf{1000-node three-dimensional spatial network} simulation confirming dimension-independence of the emergence mechanism;
+    \item \textbf{Full Lean~4 formal verification} of all three theorems (10 modules, 3,302 proof jobs, zero \texttt{sorry}).
+\end{itemize}
+
+I believe this manuscript aligns with \textit{Nonlinear Dynamics}'s scope in nonlinear dynamical systems, bifurcation theory, and complex network dynamics. The work provides the first rigorous Lyapunov-based bridge between stability theory and graph-theoretic self-organization.
+
+I am an independent researcher. This is my first submission to a peer-reviewed journal in mathematics. I confirm that this manuscript is original, has not been published previously, and is not currently under consideration for publication elsewhere. I declare no conflicts of interest.
+
+Thank you for your time and consideration.
+
+\vspace{2em}
+\noindent Sincerely,\\[3em]
+\textbf{Yuhang Chen}\\
+Independent Researcher
+
+\end{letter}
+\end{document}
