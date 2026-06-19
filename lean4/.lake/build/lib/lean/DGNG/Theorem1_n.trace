@@ -1,0 +1,58 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["e0e4fda6eaed24f2.olean"],
+  "i": "a4dd70c93363b531.ilean",
+  "c": "3faf932bf408fc51.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean c:\\Users\\16605\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\bin\\lean.exe D:\\learn\\math\\math论文\\release\\lean4\\DGNG\\Theorem1_n.lean -o D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean\\DGNG\\Theorem1_n.olean -i D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean\\DGNG\\Theorem1_n.ilean -c D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\ir\\DGNG\\Theorem1_n.c --setup D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\ir\\DGNG\\Theorem1_n.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "DGNG/Theorem1_n.lean:17:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/Theorem1_n.lean:24:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/Theorem1_n.lean:32:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/Theorem1_n.lean:99:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/Theorem1_n.lean:100:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/Theorem1_n.lean:138:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"}],
+ "inputs":
+ [["DGNG.Theorem1_n:deps",
+   [["deps",
+     [["DGNG/DGNG:extraDep", [["@DGNG:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib.Tactic transitive imports (legacy)", "872afd5904257ae9"],
+        ["Mathlib.Tactic:importAllArts", "8033b5d46c2dd76a"],
+        ["DGNG.GraphTheory transitive imports (legacy)", "56160a7da3af8d3d"],
+        ["DGNG.GraphTheory:importAllArts", "8bde87ef28dad4fe"],
+        ["DGNG.Theorem1 transitive imports (legacy)", "4754b8a92cb9f86c"],
+        ["DGNG.Theorem1:importAllArts", "f908ab829a6392ef"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.1, commit f72c35b3f637c8c6571d353742168ab66cc22c00",
+   "fa77a35a41db35c0"],
+  ["D:\\learn\\math\\math论文\\release\\lean4\\DGNG\\Theorem1_n.lean",
+   "03159230465b89c0"],
+  ["options",
+   [["-DmaxSynthPendingDepth=3", "c78e353d34de85d4"],
+    ["-Dweak.linter.mathlibStandardSet=true", "8a155799906f2b42"],
+    ["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: DGNG.Theorem1_n", "3d41c1d0d9ee020f"],
+  ["Package.id?: (some DGNG)", "2d1233e5fc34346f"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "cfd807dded6ce36a"}

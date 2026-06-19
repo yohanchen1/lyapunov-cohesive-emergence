@@ -1,0 +1,178 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["0da659b89fc8d120.olean"],
+  "i": "7c8935fb999f463d.ilean",
+  "c": "c93266bdc493151a.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean;D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean c:\\Users\\16605\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\bin\\lean.exe D:\\learn\\math\\math论文\\release\\lean4\\DGNG\\LaSalle_n.lean -o D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean\\DGNG\\LaSalle_n.olean -i D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\lib\\lean\\DGNG\\LaSalle_n.ilean -c D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\ir\\DGNG\\LaSalle_n.c --setup D:\\learn\\math\\math论文\\release\\lean4\\.lake\\build\\ir\\DGNG\\LaSalle_n.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "DGNG/LaSalle_n.lean:60:2: The `induction'` tactic is discouraged: please strongly consider using `induction` instead.\n\nNote: This linter can be disabled with `set_option linter.style.induction false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:120:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:159:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:162:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:173:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:174:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:188:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:197:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:328:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:330:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:343:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:359:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:371:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:486:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:621:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                    ↓\n  ⏎    set E0 := dgngEnergy_n α g (z 0) with hE0_def⏎⏎    -- (1) Energy is non-increasing along trajectories⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:626:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                                           ↓\n  ⏎      exact energy_non_increasing_n z ε α hε g hz_solution h_symm 0 t ht⏎⏎    -- (2) From energy lower bound: for any t ≥ 0,⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:651:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                       ↓\n  ⏎          positivity⏎⏎    set C_w_sq := (4/α) * (E0 + (g.edgeCount : ℝ) * (M^4) / α) with hC_w_sq_def⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:661:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                   ↓\n  ⏎      positivity⏎⏎    -- (3) Bound edge weights: each |w_ij(t)| ≤ sqrt(C_w_sq) for edges⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:688:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                              ↓\n  ⏎        _ ≤ Real.sqrt C_w_sq := Real.sqrt_le_sqrt h_sq_edge⏎⏎    -- (4) Non-edge weights are constant (ODE is ẇ_ij = 0)⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:705:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                          ↓\n  ⏎      exact h_const t 0⏎⏎    -- (5) Maximum initial absolute value over all pairs⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:719:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                 ↓\n  ⏎      linarith⏎⏎    set W_max := max (Real.sqrt C_w_sq) C_init with hW_max_def⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:723:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                      ↓\n  ⏎      refine le_max_of_le_left (Real.sqrt_nonneg _)⏎⏎    -- (6) Final bound: every weight at any t ≥ 0 satisfies |w_ij(t)| ≤ W_max⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:746:44: unused variable `hε`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:746:57: unused variable `hα`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:762:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:849:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:855:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:857:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:873:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                                             ↓\n  ⏎  let E_closed : Set (State n × Weight n) := {p | dgngEnergy_n α g p ≤ E₀}⏎⏎  -- S is compact: product of closed intervals [-C_x, C_x] over Fin n.⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:880:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                                     ↓\n  ⏎    exact isCompact_pi_infinite (fun (i : Fin n) => isCompact_Icc)⏎⏎  -- T is compact: nested product of intervals.⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:891:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                                       ↓\n  ⏎    exact isCompact_pi_infinite (fun (i : Fin n) => h_inner_compact)⏎⏎  -- S x T is compact (product of two compact sets).⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:895:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                 ↓\n  ⏎    hS_compact.prod hT_compact⏎⏎  -- E_closed is closed because dgngEnergy_n is continuous and (-infinity, E₀] is closed in R.⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:903:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                        ↓\n  ⏎    simpa [E_closed] using h_preimage⏎⏎  -- Symm_total is closed: each condition w_ij = w_ji is the kernel of a continuous map.⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:916:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                                                        ↓\n  ⏎    refine isClosed_iInter (fun i => isClosed_iInter (fun j => h_symm_eq_closed i j))⏎⏎  -- Intersection of the two closed sets is closed.⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:920:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                                  ↓\n  ⏎    IsClosed.inter hSymm_total_closed hE_closed⏎⏎  -- Set equality: Omega_n = (S x T) ∩ (Symm_total ∩ E_closed).⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:930:0: Please, write a comment here or remove this line, but do not place empty lines within commands!\nContext:\n                                  ↓\n  ⏎      exact ⟨hE, hX, hW, hSymm⟩⏎⏎  rw [h_eq]⏎\n\nNote: This linter can be disabled with `set_option linter.style.emptyLine false`",
+   "level": "warning"},
+  {"message":
+   "DGNG/LaSalle_n.lean:906:100: This line exceeds the 100 character limit, please shorten it!\n\nNote: This linter can be disabled with `set_option linter.style.longLine false`",
+   "level": "warning"}],
+ "inputs":
+ [["DGNG.LaSalle_n:deps",
+   [["deps",
+     [["DGNG/DGNG:extraDep", [["@DGNG:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib.Tactic transitive imports (legacy)", "872afd5904257ae9"],
+        ["Mathlib.Tactic:importAllArts", "8033b5d46c2dd76a"],
+        ["Mathlib.Analysis.Calculus.Deriv.Basic transitive imports (legacy)",
+         "2c189ff969ec4e06"],
+        ["Mathlib.Analysis.Calculus.Deriv.Basic:importAllArts",
+         "a613debf7a840834"],
+        ["Mathlib.Analysis.Calculus.Deriv.MeanValue transitive imports (legacy)",
+         "4268081b90d8a7f2"],
+        ["Mathlib.Analysis.Calculus.Deriv.MeanValue:importAllArts",
+         "0c84cc8925217908"],
+        ["Mathlib.Analysis.Calculus.Deriv.Pi transitive imports (legacy)",
+         "8d27f72d9032385c"],
+        ["Mathlib.Analysis.Calculus.Deriv.Pi:importAllArts",
+         "53b7d679dfa97d8e"],
+        ["Mathlib.Analysis.Calculus.Deriv.Prod transitive imports (legacy)",
+         "8e07c4e0a0d4c78a"],
+        ["Mathlib.Analysis.Calculus.Deriv.Prod:importAllArts",
+         "a19541a2bbb527be"],
+        ["Mathlib.Analysis.Convex.Basic transitive imports (legacy)",
+         "e4fed7ae013b5667"],
+        ["Mathlib.Analysis.Convex.Basic:importAllArts", "f7bd8ebc0517cbb6"],
+        ["Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp transitive imports (legacy)",
+         "1807dd5c65d0ddba"],
+        ["Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp:importAllArts",
+         "3e89131ab9ea8061"],
+        ["DGNG.GraphTheory transitive imports (legacy)", "56160a7da3af8d3d"],
+        ["DGNG.GraphTheory:importAllArts", "8bde87ef28dad4fe"],
+        ["DGNG.Theorem2 transitive imports (legacy)", "8c4d7b510bda5109"],
+        ["DGNG.Theorem2:importAllArts", "4f1822bc111611b1"],
+        ["DGNG.EnergyBound_n transitive imports (legacy)", "758aaf700f6ab54c"],
+        ["DGNG.EnergyBound_n:importAllArts", "cd85dbccc442d79c"],
+        ["DGNG.Theorem1_n transitive imports (legacy)", "75fbca54284dc447"],
+        ["DGNG.Theorem1_n:importAllArts", "c4d23e9ec59e4b15"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.1, commit f72c35b3f637c8c6571d353742168ab66cc22c00",
+   "fa77a35a41db35c0"],
+  ["D:\\learn\\math\\math论文\\release\\lean4\\DGNG\\LaSalle_n.lean",
+   "d9af6a7a53d89fe8"],
+  ["options",
+   [["-DmaxSynthPendingDepth=3", "c78e353d34de85d4"],
+    ["-Dweak.linter.mathlibStandardSet=true", "8a155799906f2b42"],
+    ["-DrelaxedAutoImplicit=false", "74a2b5546b55be80"],
+    ["-Dpp.unicode.fun=true", "9b94070140457fab"]]],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: DGNG.LaSalle_n", "9fe244026ed9c6c7"],
+  ["Package.id?: (some DGNG)", "2d1233e5fc34346f"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "2b77d59c05fa8cec"}
